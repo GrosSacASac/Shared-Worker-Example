@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "author": "",
+  "version": "0.1.0",
+  "main": "",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "build": ""
+  },
+  "devDependencies": {}
+}
