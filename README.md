@@ -1,21 +1,20 @@
-#Minimal shared worker example
+# Minimal Shared worker example
 
-This is a prototype only
+This is a demo to show how 1 tab can communicate with another via a Shared Worker 
 
-you can try it out locally:
+## Try it
 
- * download this repository
- * install node.js from http://nodejs.org/
- * open the node command line interface, go in the correct directory
- * `npm install`
- * `npm start`
- * add audio.mp3 file 
-
-
-##Dependencies
-
-Express
+ * Firefox
+     * download this repository
+     * add audio.mp3 file (required)
+ * Chrome, Opera
+     * do the above plus
+     * install node.js from https://nodejs.org/
+     * open the node command line interface, go in the correct directory
+     * `npm install`
+     * `npm start`
 
 
-### References
+
+## References
 

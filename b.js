@@ -7,11 +7,14 @@
 
     const audioElement = document.createElement('audio');
     audioElement.setAttribute('src', 'audio.mp3');
-    audioElement.setAttribute('autoplay', 'autoplay');
-    // audioElement.load()
-    document.body.appendChild(audioElement); // useful ?
+    audioElement.setAttribute('loop', 'loop');
+    audioElement.setAttribute('controls', 'controls');
+    
+    
+    // audioElement.load() // default
+    document.body.appendChild(audioElement);
 
-
+    // audioElement.setAttribute('autoplay', 'autoplay');
     audioElement.addEventListener("load", function() {
         audioElement.play();
     }, true);
